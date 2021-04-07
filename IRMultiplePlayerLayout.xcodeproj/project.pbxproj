@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4D2BF224F7B29A00BC009E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2BF124F7B29A00BC009E /* AppDelegate.m */; };
+		4A4D2BF524F7B29A00BC009E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2BF424F7B29A00BC009E /* SceneDelegate.m */; };
+		4A4D2BF824F7B29A00BC009E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2BF724F7B29A00BC009E /* ViewController.m */; };
+		4A4D2BFB24F7B29A00BC009E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D2BF924F7B29A00BC009E /* Main.storyboard */; };
+		4A4D2BFD24F7B29B00BC009E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D2BFC24F7B29B00BC009E /* Assets.xcassets */; };
+		4A4D2C0024F7B29B00BC009E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D2BFE24F7B29B00BC009E /* LaunchScreen.storyboard */; };
+		4A4D2C0324F7B29B00BC009E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2C0224F7B29B00BC009E /* main.m */; };
+		4A4D2C0C24F7BB5D00BC009E /* PlayerViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2C0A24F7BB5D00BC009E /* PlayerViewTableViewCell.m */; };
+		4A4D2C0D24F7BB5D00BC009E /* PlayerViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D2C0B24F7BB5D00BC009E /* PlayerViewTableViewCell.xib */; };
+		4A6C7F5224F8F6320099E59C /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C7F4F24F8F6310099E59C /* i-see-fire.mp4 */; };
+		4A6C7F5324F8F6320099E59C /* fisheye-demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C7F5024F8F6310099E59C /* fisheye-demo.mp4 */; };
+		4A6C7F5424F8F6320099E59C /* google-help-vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C7F5124F8F6320099E59C /* google-help-vr.mp4 */; };
+		4A6C7F5824F8F7580099E59C /* TableViewLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7F5624F8F7580099E59C /* TableViewLayoutViewController.m */; };
+		4A6C7F5924F8F7580099E59C /* TableViewLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C7F5724F8F7580099E59C /* TableViewLayoutViewController.xib */; };
+		4A6C7F5D24F9083D0099E59C /* TextureTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7F5B24F9083D0099E59C /* TextureTableViewViewController.m */; };
+		4A6C7F5E24F9083D0099E59C /* TextureTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C7F5C24F9083D0099E59C /* TextureTableViewViewController.xib */; };
+		4A6C7F6B24F9116B0099E59C /* VideoContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7F6424F9116A0099E59C /* VideoContentCell.m */; };
+		4A6C7F6C24F9116B0099E59C /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7F6724F9116B0099E59C /* VideoModel.m */; };
+		4A6C7F6D24F9116B0099E59C /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7F6924F9116B0099E59C /* Utilities.m */; };
+		7F9E1DC9207BCB4E2FBAD536 /* Pods_IRMultiplePlayerLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA21C3819DCD1B9452072B12 /* Pods_IRMultiplePlayerLayout.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A4D2BED24F7B29A00BC009E /* IRMultiplePlayerLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRMultiplePlayerLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4D2BF024F7B29A00BC009E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A4D2BF124F7B29A00BC009E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A4D2BF324F7B29A00BC009E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4A4D2BF424F7B29A00BC009E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4A4D2BF624F7B29A00BC009E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A4D2BF724F7B29A00BC009E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A4D2BFA24F7B29A00BC009E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A4D2BFC24F7B29B00BC009E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A4D2BFF24F7B29B00BC009E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A4D2C0124F7B29B00BC009E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4D2C0224F7B29B00BC009E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A4D2C0924F7BB5D00BC009E /* PlayerViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewTableViewCell.h; sourceTree = "<group>"; };
+		4A4D2C0A24F7BB5D00BC009E /* PlayerViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewTableViewCell.m; sourceTree = "<group>"; };
+		4A4D2C0B24F7BB5D00BC009E /* PlayerViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewTableViewCell.xib; sourceTree = "<group>"; };
+		4A6C7F4F24F8F6310099E59C /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
+		4A6C7F5024F8F6310099E59C /* fisheye-demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fisheye-demo.mp4"; sourceTree = "<group>"; };
+		4A6C7F5124F8F6320099E59C /* google-help-vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "google-help-vr.mp4"; sourceTree = "<group>"; };
+		4A6C7F5524F8F7580099E59C /* TableViewLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewLayoutViewController.h; sourceTree = "<group>"; };
+		4A6C7F5624F8F7580099E59C /* TableViewLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLayoutViewController.m; sourceTree = "<group>"; };
+		4A6C7F5724F8F7580099E59C /* TableViewLayoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewLayoutViewController.xib; sourceTree = "<group>"; };
+		4A6C7F5A24F9083D0099E59C /* TextureTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureTableViewViewController.h; sourceTree = "<group>"; };
+		4A6C7F5B24F9083D0099E59C /* TextureTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureTableViewViewController.m; sourceTree = "<group>"; };
+		4A6C7F5C24F9083D0099E59C /* TextureTableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextureTableViewViewController.xib; sourceTree = "<group>"; };
+		4A6C7F6424F9116A0099E59C /* VideoContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoContentCell.m; sourceTree = "<group>"; };
+		4A6C7F6524F9116A0099E59C /* VideoContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoContentCell.h; sourceTree = "<group>"; };
+		4A6C7F6724F9116B0099E59C /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		4A6C7F6824F9116B0099E59C /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		4A6C7F6924F9116B0099E59C /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		4A6C7F6A24F9116B0099E59C /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		67C44602E28CE51A7DB1464B /* Pods-IRMultiplePlayerLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMultiplePlayerLayout.release.xcconfig"; path = "Target Support Files/Pods-IRMultiplePlayerLayout/Pods-IRMultiplePlayerLayout.release.xcconfig"; sourceTree = "<group>"; };
+		AA21C3819DCD1B9452072B12 /* Pods_IRMultiplePlayerLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRMultiplePlayerLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CD524AC37F1AAB0390E8C8 /* Pods-IRMultiplePlayerLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMultiplePlayerLayout.debug.xcconfig"; path = "Target Support Files/Pods-IRMultiplePlayerLayout/Pods-IRMultiplePlayerLayout.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4D2BEA24F7B29A00BC009E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9E1DC9207BCB4E2FBAD536 /* Pods_IRMultiplePlayerLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4D2BE424F7B29A00BC009E = {
+			isa = PBXGroup;
+			children = (
+				4A4D2BEF24F7B29A00BC009E /* IRMultiplePlayerLayout */,
+				4A4D2BEE24F7B29A00BC009E /* Products */,
+				A95FAE15CE067924D9A7265B /* Pods */,
+				B87F9668BB0E90FD37503E67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4D2BEE24F7B29A00BC009E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D2BED24F7B29A00BC009E /* IRMultiplePlayerLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4D2BEF24F7B29A00BC009E /* IRMultiplePlayerLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D2BF024F7B29A00BC009E /* AppDelegate.h */,
+				4A4D2BF124F7B29A00BC009E /* AppDelegate.m */,
+				4A4D2BF324F7B29A00BC009E /* SceneDelegate.h */,
+				4A4D2BF424F7B29A00BC009E /* SceneDelegate.m */,
+				4A4D2BF624F7B29A00BC009E /* ViewController.h */,
+				4A4D2BF724F7B29A00BC009E /* ViewController.m */,
+				4A6C7F5524F8F7580099E59C /* TableViewLayoutViewController.h */,
+				4A6C7F5624F8F7580099E59C /* TableViewLayoutViewController.m */,
+				4A6C7F5724F8F7580099E59C /* TableViewLayoutViewController.xib */,
+				4A6C7F5A24F9083D0099E59C /* TextureTableViewViewController.h */,
+				4A6C7F5B24F9083D0099E59C /* TextureTableViewViewController.m */,
+				4A6C7F5C24F9083D0099E59C /* TextureTableViewViewController.xib */,
+				4A6C7F6624F9116B0099E59C /* Models */,
+				4A6C7F6324F9116A0099E59C /* Nodes */,
+				4A4D2C0924F7BB5D00BC009E /* PlayerViewTableViewCell.h */,
+				4A4D2C0A24F7BB5D00BC009E /* PlayerViewTableViewCell.m */,
+				4A4D2C0B24F7BB5D00BC009E /* PlayerViewTableViewCell.xib */,
+				4A4D2BF924F7B29A00BC009E /* Main.storyboard */,
+				4A6C7F5024F8F6310099E59C /* fisheye-demo.mp4 */,
+				4A6C7F5124F8F6320099E59C /* google-help-vr.mp4 */,
+				4A6C7F4F24F8F6310099E59C /* i-see-fire.mp4 */,
+				4A4D2BFC24F7B29B00BC009E /* Assets.xcassets */,
+				4A4D2BFE24F7B29B00BC009E /* LaunchScreen.storyboard */,
+				4A4D2C0124F7B29B00BC009E /* Info.plist */,
+				4A4D2C0224F7B29B00BC009E /* main.m */,
+			);
+			path = IRMultiplePlayerLayout;
+			sourceTree = "<group>";
+		};
+		4A6C7F6324F9116A0099E59C /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7F6524F9116A0099E59C /* VideoContentCell.h */,
+				4A6C7F6424F9116A0099E59C /* VideoContentCell.m */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		4A6C7F6624F9116B0099E59C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7F6824F9116B0099E59C /* Utilities.h */,
+				4A6C7F6924F9116B0099E59C /* Utilities.m */,
+				4A6C7F6A24F9116B0099E59C /* VideoModel.h */,
+				4A6C7F6724F9116B0099E59C /* VideoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A95FAE15CE067924D9A7265B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8CD524AC37F1AAB0390E8C8 /* Pods-IRMultiplePlayerLayout.debug.xcconfig */,
+				67C44602E28CE51A7DB1464B /* Pods-IRMultiplePlayerLayout.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B87F9668BB0E90FD37503E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA21C3819DCD1B9452072B12 /* Pods_IRMultiplePlayerLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4D2BEC24F7B29A00BC009E /* IRMultiplePlayerLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4D2C0624F7B29B00BC009E /* Build configuration list for PBXNativeTarget "IRMultiplePlayerLayout" */;
+			buildPhases = (
+				FE5DC8DCE30ECB8FD56E4FB2 /* [CP] Check Pods Manifest.lock */,
+				4A4D2BE924F7B29A00BC009E /* Sources */,
+				4A4D2BEA24F7B29A00BC009E /* Frameworks */,
+				4A4D2BEB24F7B29A00BC009E /* Resources */,
+				A26E3B8C33A5566ACEE48946 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRMultiplePlayerLayout;
+			productName = IRMultiplePlayerLayout;
+			productReference = 4A4D2BED24F7B29A00BC009E /* IRMultiplePlayerLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4D2BE524F7B29A00BC009E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Phil;
+				TargetAttributes = {
+					4A4D2BEC24F7B29A00BC009E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 4A4D2BE824F7B29A00BC009E /* Build configuration list for PBXProject "IRMultiplePlayerLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A4D2BE424F7B29A00BC009E;
+			productRefGroup = 4A4D2BEE24F7B29A00BC009E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4D2BEC24F7B29A00BC009E /* IRMultiplePlayerLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A4D2BEB24F7B29A00BC009E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4D2C0024F7B29B00BC009E /* LaunchScreen.storyboard in Resources */,
+				4A4D2BFD24F7B29B00BC009E /* Assets.xcassets in Resources */,
+				4A6C7F5324F8F6320099E59C /* fisheye-demo.mp4 in Resources */,
+				4A4D2BFB24F7B29A00BC009E /* Main.storyboard in Resources */,
+				4A4D2C0D24F7BB5D00BC009E /* PlayerViewTableViewCell.xib in Resources */,
+				4A6C7F5224F8F6320099E59C /* i-see-fire.mp4 in Resources */,
+				4A6C7F5E24F9083D0099E59C /* TextureTableViewViewController.xib in Resources */,
+				4A6C7F5924F8F7580099E59C /* TableViewLayoutViewController.xib in Resources */,
+				4A6C7F5424F8F6320099E59C /* google-help-vr.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A26E3B8C33A5566ACEE48946 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayerLayout/Pods-IRMultiplePlayerLayout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayerLayout/Pods-IRMultiplePlayerLayout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayerLayout/Pods-IRMultiplePlayerLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5DC8DCE30ECB8FD56E4FB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IRMultiplePlayerLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4D2BE924F7B29A00BC009E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4D2BF824F7B29A00BC009E /* ViewController.m in Sources */,
+				4A4D2C0C24F7BB5D00BC009E /* PlayerViewTableViewCell.m in Sources */,
+				4A6C7F5D24F9083D0099E59C /* TextureTableViewViewController.m in Sources */,
+				4A4D2BF224F7B29A00BC009E /* AppDelegate.m in Sources */,
+				4A6C7F6D24F9116B0099E59C /* Utilities.m in Sources */,
+				4A4D2C0324F7B29B00BC009E /* main.m in Sources */,
+				4A6C7F6C24F9116B0099E59C /* VideoModel.m in Sources */,
+				4A6C7F5824F8F7580099E59C /* TableViewLayoutViewController.m in Sources */,
+				4A4D2BF524F7B29A00BC009E /* SceneDelegate.m in Sources */,
+				4A6C7F6B24F9116B0099E59C /* VideoContentCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A4D2BF924F7B29A00BC009E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4D2BFA24F7B29A00BC009E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A4D2BFE24F7B29B00BC009E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4D2BFF24F7B29B00BC009E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A4D2C0424F7B29B00BC009E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A4D2C0524F7B29B00BC009E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A4D2C0724F7B29B00BC009E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CD524AC37F1AAB0390E8C8 /* Pods-IRMultiplePlayerLayout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6VV6T753H;
+				INFOPLIST_FILE = IRMultiplePlayerLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = irons163.IRMultiplePlayerLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A4D2C0824F7B29B00BC009E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C44602E28CE51A7DB1464B /* Pods-IRMultiplePlayerLayout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6VV6T753H;
+				INFOPLIST_FILE = IRMultiplePlayerLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = irons163.IRMultiplePlayerLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4D2BE824F7B29A00BC009E /* Build configuration list for PBXProject "IRMultiplePlayerLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4D2C0424F7B29B00BC009E /* Debug */,
+				4A4D2C0524F7B29B00BC009E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4D2C0624F7B29B00BC009E /* Build configuration list for PBXNativeTarget "IRMultiplePlayerLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4D2C0724F7B29B00BC009E /* Debug */,
+				4A4D2C0824F7B29B00BC009E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4D2BE524F7B29A00BC009E /* Project object */;
+}

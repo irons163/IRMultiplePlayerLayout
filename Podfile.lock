@@ -1,0 +1,66 @@
+PODS:
+  - IRFFMpeg (4.2.19):
+    - IRFFMpeg/FFMpegLib (= 4.2.19)
+  - IRFFMpeg/FFMpegLib (4.2.19)
+  - IRPlayer (0.3.6):
+    - IRFFMpeg
+  - PINCache (3.0.1):
+    - PINCache/Arc-exception-safe (= 3.0.1)
+    - PINCache/Core (= 3.0.1)
+  - PINCache/Arc-exception-safe (3.0.1):
+    - PINCache/Core
+  - PINCache/Core (3.0.1):
+    - PINOperation (~> 1.2.0)
+  - PINOperation (1.2)
+  - PINRemoteImage/Core (3.0.1):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.1):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.1):
+    - PINCache (~> 3.0.1)
+    - PINRemoteImage/Core
+  - Texture (3.0.0):
+    - Texture/AssetsLibrary (= 3.0.0)
+    - Texture/Core (= 3.0.0)
+    - Texture/MapKit (= 3.0.0)
+    - Texture/Photos (= 3.0.0)
+    - Texture/PINRemoteImage (= 3.0.0)
+    - Texture/Video (= 3.0.0)
+  - Texture/AssetsLibrary (3.0.0):
+    - Texture/Core
+  - Texture/Core (3.0.0)
+  - Texture/MapKit (3.0.0):
+    - Texture/Core
+  - Texture/Photos (3.0.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.0.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.0.0):
+    - Texture/Core
+
+DEPENDENCIES:
+  - IRPlayer
+  - Texture
+
+SPEC REPOS:
+  trunk:
+    - IRFFMpeg
+    - IRPlayer
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Texture
+
+SPEC CHECKSUMS:
+  IRFFMpeg: 50e159994f9c7c1136b19fc1dea96b4c903b1c9c
+  IRPlayer: 32858915f98b76c9bcd3dddc55f9d745426b71ec
+  PINCache: ee3c4abadd09970a61cdda0cfc345e69a3d75b26
+  PINOperation: 3a967a927e7867e61976c6cc23e5770416449fbc
+  PINRemoteImage: 3b7cedb118c2d357f87e9eabc7c81ba0202cb236
+  Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
+
+PODFILE CHECKSUM: 9fff47cbe685cadf81c32e7accd2ba93191e0a39
+
+COCOAPODS: 1.10.0

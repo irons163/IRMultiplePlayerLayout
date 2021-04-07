@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayerLayout/Pods-IRMultiplePlayerLayout-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework
+${BUILT_PRODUCTS_DIR}/IRPlayer/IRPlayer.framework
+${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework
+${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework
+${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework
+${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework
